@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------------Variables-----------------*/
+:root{
+    --accent: #282939;
+    --background: #232F4E;
+    --primary: #51C0E2;
+    --border: #299CC4;
+    --information: #1A2543;
+    --nav-back: #425575;
+
+}
+
+
+
+
+
+
+
+/* ---------------Layout for Assignment-----------------*/
+.content{
+    background-color: var(--background);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, a{
+    font-family: 'Merriweather', serif;
+    color: var(--primary);
+}
+html, body{
+    	height: 100%;
+		margin: 0px;
+}
+body{
+    overflow:auto;
+    background-color: var(--accent);
+}
+header{
+    text-align: center;
+    border: 3px dotted var(--border);
+    border-radius: 15px;
+    background-color: var(--information);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    margin: auto 75px 75px;
+}
+h1{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    color: var(--primary);
+    font-size: large;
+}
+nav{
+ margin: 10px;
+}
+nav a{
+    margin: auto 10px 10px;
+    text-decoration: none;
+    margin: auto 40px;
+    padding: 8px 20px;
+    border: 3px solid var(--border);
+    border-radius: 8px 25px;
+    background-color: var(--nav-back);
+}
+a:hover{
+    color: var(--nav-back);
+    background-color: var(--primary);
+    border-color: white;
+    text-decoration: underline;
+}
+#home{
+    max-height: 300px;
+    margin-left: 8%;
+    float: left;
+    margin-right: 5%;
+}
+#portfolio{
+    max-height: 300px;
+    margin-left: 8%;
+    float: left;
+    margin-right: 5%;
+}
+main{
+    margin: 5%;
+}
+footer{
+    margin-top: 150px;
+    text-align: center;
+    padding: 30px;
+    border: 3px dotted var(--border);
+    border-radius: 15px;
+    background-color: var(--information);
+    line-height: 1.5;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#email{
+    float: right;
+    font-weight: bold;
+}
+#phone{
+    float: left;
+    font-weight: bold;
+}
+#bumpright{
+    margin: 0px 8%;
+}
+#noinfofoot{
+    padding: 1px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#career{
+    float: right;
+    margin-right: 50px;
+    max-width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/*        SOURCES
+
+https://www.w3schools.com/
+
+https://www.tutorialrepublic.com/
+
+https://www.americanprogress.org/issues/green/news/2009/10/07/6787/its-easy-being-green-going-green-for-the-team/
+
+https://www.istockphoto.com/photo/young-latin-engineer-calibrating-drill-gm1057719100-282666860
+
+https://freepngimg.com/png/19592-web-development-png-file
+
+*/
